@@ -1,10 +1,17 @@
-html {
+:root {
     font-size: 16px;
+    --system-ui: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "roboto-font", var(--system-ui);
 }
 
 *, ::before, ::after {
     margin: 0;
     padding: 0;
+}
+
+@font-face {
+    font-family: "roboto-font";
+    src: url("Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
 ul {
@@ -307,6 +314,7 @@ main {
     display: flex;
     flex-direction: column;
     border-radius: 7px;
+    min-width: 20ch;
 }
 
 .trending-block {
