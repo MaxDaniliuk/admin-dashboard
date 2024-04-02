@@ -120,7 +120,107 @@ aside {
     padding-bottom: 15px;
 }
 
+/*  Header  */
 
+header {
+    background-color: #ffffff;
+    padding: 15px 25px 15px 25px;
+    
+    display: grid;
+    grid-template-columns: 3fr 2fr; /* Might be changed */
+    row-gap: 15px;
+    font-weight: bold;
+}
+
+.header-three {
+    align-self: end;
+}
+
+.header-three-container {
+    align-items: center;
+}
+
+.header-three-container .big-p {
+    font-size: 1.3rem;
+}
+
+.header-three-container .small-p {
+    font-size: 0.9rem;
+}
+
+.header-two span {
+    font-size: 1.1rem;
+}
+
+.form,
+.header-two, 
+.header-four,
+.header-three-container {  
+    height: 100%;
+    display: flex;
+}
+
+.form {
+    align-items: center;
+}
+
+label svg {
+    display:inline-block;vertical-align:middle
+}
+
+.form input {
+    flex: 1;
+}
+
+.header-two {
+    justify-content: end;
+    align-items: center;
+    gap: 1.25em;
+    padding-right: 1em;
+}
+
+.big-creator-icon {
+    margin-right: 1.125em;
+}
+
+.header-one label {
+    padding-right: 1em;
+}
+
+.header-four {
+    gap: 2.5em;
+    justify-content: end;
+}
+
+.button {
+    flex-basis: 20%;
+    align-self: end;
+
+    background-color: #0ea5e9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 0 7px 0;
+}
+
+input[type="search"] {
+    box-sizing: border-box;
+    height: 30px;
+    border: none;
+    background-color: #FFFFFF;
+    background-color: #e5e7eb;
+    border-radius: 15px;
+}
+
+/*  Main  */
+
+main {
+    background-color: #e5e7eb;
+}
+
+.profile-icon {
+    display: flex;
+}
 
 
 
